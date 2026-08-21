@@ -12,7 +12,7 @@ const outputRoots = [
     path.join(packageRoot, 'dist/node-client')
 ];
 const manifestPath = path.join(packageRoot, 'dist/client-manifest.json');
-const maxAssetBytes = 25 * 1024 * 1024;
+const maxAssetBytes = 250 * 1024 * 1024;
 const maxAssetFiles = 20_000;
 const allowedExtensions = new Set([
     '.avif', '.bmp', '.br', '.css', '.gif', '.gz', '.html', '.ico', '.jpeg',
