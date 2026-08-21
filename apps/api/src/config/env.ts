@@ -21,7 +21,7 @@ export const RUNTIME_ENV = runtimeEnvironment as RuntimeEnvironment;
 export const IS_PRODUCTION = RUNTIME_ENV === 'production';
 const DEVELOPMENT_SECRET = 'dev-only-insecure-change-me';
 const DEFAULT_STORY_MAX_UPLOAD_BYTES = 50 * 1024 * 1024;
-const DEFAULT_SITE_PACKAGE_MAX_UPLOAD_BYTES = 25 * 1024 * 1024;
+const DEFAULT_SITE_PACKAGE_MAX_UPLOAD_BYTES = 250 * 1024 * 1024;
 
 export interface SiteOriginConfig {
     siteOrigin: string;
